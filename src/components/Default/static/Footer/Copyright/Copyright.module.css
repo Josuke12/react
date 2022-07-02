@@ -1,0 +1,13 @@
+.copyright {
+	text-align: center;
+	padding: 22px 0 35px;
+}
+
+.copyright p {
+	font-weight: 700;
+	font-size: 17px;
+}
+
+.copyright p:not(:last-child) {
+	margin-bottom: 14px;
+}

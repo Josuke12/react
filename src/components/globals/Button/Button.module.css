@@ -1,0 +1,61 @@
+.contained, .blue {
+	width: 100px;
+	background-color: #fff;
+	color: #0768DE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7px 10px;
+	border-radius: 10px;
+	font-weight: 700;
+	transition: .3s;
+}
+
+.user {
+	max-width: 230px;
+	background-color: #fff;
+	color: #0768DE;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7px 10px;
+	border-radius: 10px;
+	font-weight: 700;
+	transition: .3s;
+}
+
+.blue {
+	background-color: #1D07A3;
+	color: #fff;
+}
+
+.blue:hover {
+	background-color: #000;
+	border: 1px solid #fff;
+}
+
+.contained:hover {
+	background: #0768DE;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.user:hover {
+	background: #0768DE;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.outlined {
+	max-width: 190px;
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
+	font-weight: 700;
+	padding: 7px 7px;
+	transition: .3s;
+}
+
+.outlined:hover {
+	background: #fff;
+	color: #0768DE;
+}

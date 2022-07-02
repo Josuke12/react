@@ -1,0 +1,23 @@
+.accepted, .declined, .watching {
+	color: #fff;
+	width: 174px;
+	border-radius: 13px;
+	font-weight: 700;
+	padding: 8px 0;
+	margin-top: 37px;
+}
+
+.accepted {
+	background: #1A9206;
+	box-shadow: 0px 0px 19px 1px #1A9206;
+}
+
+.declined {
+	background: #C30D0D;
+	box-shadow: 0px 0px 19px 1px #C30D0D;
+}
+
+.watching {
+	background: #F98600;
+	box-shadow: 0px 0px 19px 1px #F98600;
+}

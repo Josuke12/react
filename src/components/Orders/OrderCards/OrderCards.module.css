@@ -1,0 +1,24 @@
+.orderCards {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 35px 0 223px;
+	flex-wrap: wrap;
+}
+
+.orderCards div {
+	margin-right: 50px;
+}
+
+.orderCards div {
+	margin-top: 20px;
+}
+
+@media (max-width: 844px) {
+	.orderCards div {
+		margin-right: 0;
+	}
+	.orderCards {
+		flex-direction: column;
+	}
+}

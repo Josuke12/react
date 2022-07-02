@@ -1,0 +1,18 @@
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo img {
+	margin-right: 10px;
+}
+
+@media (max-width: 732px) {
+	.logo h2 {
+		display: none
+	}
+	.logo img {
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+}

@@ -1,0 +1,22 @@
+.loginButton {
+	width: 135px;
+	background-color: #0768DE;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 7px 10px;
+	border-radius: 10px;
+	font-weight: 700;
+	font-size: 20px;
+	transition: .3s;
+	border: none;
+	font-family: 'Mulish', sans-serif;
+	margin: 50px 0 48px;
+	cursor: pointer;
+}
+.loginButton:hover {
+	background: #fff;
+	border: 1px solid #0768DE;
+	color: #0768DE;
+}

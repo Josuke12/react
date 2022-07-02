@@ -1,0 +1,27 @@
+.inputs {
+	margin-top: 22px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.inputs input {
+	border: none;
+	border-bottom: 1px solid #0768DE;
+	color: #0768DE;
+	font-size: 24px;
+	font-weight: 700;
+	max-width: 233px;
+	padding: 0 5px;
+	outline: none;
+	padding-right: 20px;
+	font-family: 'Mulish', sans-serif;
+}
+
+.inputs input {
+	margin-bottom: 18px;
+}
+
+.inputs input::-moz-placeholder { color: #0768DE; font-family: 'Mulish', sans-serif;}
+
+.inputs input::-webkit-input-placeholder { color: #0768DE; font-family: 'Mulish', sans-serif;}
